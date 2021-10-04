@@ -4,4 +4,5 @@ This project was bootstrapped with [Create React App](https://suspicious-hoover-
 
 * Latest Courses
 * Best Tutors
+* Lowest Price
 * Lifetime Support

@@ -3,7 +3,7 @@ import React from 'react';
 const Login = () => {
     return (
         <div className='container'>
-            <h1 className="fs-1 my-5 text-center">Log in to your account</h1>
+            <h1 className="fs-1 my-5 text-center text-success fw-bold">Log in to your account</h1>
             <hr />
             <form className='w-50 mx-auto py-4'>
                 <div className='mb-4'>
@@ -16,7 +16,7 @@ const Login = () => {
                 </div>
             </form>
             <div className='text-center mb-2'>
-                <button className="btn btn-success w-50">Log in <i className="fas fa-sign-in-alt"></i></button>
+                <button className="btn btn-success w-50">Log in</button>
             </div>
             <p className="text-center fs-6 mb-5">Don't have an account? <span className='text-primary text-decoration-underline'>Sign up</span> here.</p>
         </div>

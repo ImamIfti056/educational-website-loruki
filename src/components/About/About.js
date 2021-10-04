@@ -6,12 +6,12 @@ const About = () => {
         <div>
             {/* top section */}
             <div className="container">
-                <h1 className="fs-1 text-center text-dark my-5">About US</h1>
+                <h1 className="fs-1 text-center text-success fw-bold my-5">About US</h1>
                 <hr />
                 <div className="d-flex pt-5 align-items-center justify-content-between">
                     <div>
                         <h1 className="fs-1">We share knowledge with the world.</h1>
-                        <p>
+                        <p className='text-secondary'>
                             An American massive open online course provider founded in 2021
                             <br />
                             by computer science students.
@@ -27,7 +27,7 @@ const About = () => {
             </div>
 
             {/* Stat section */}
-            <section className="bg-primary">
+            <section className="bg-success">
                 <div className="container py-5">
                     <h1 className="fs-1 text-center mb-4 text-light">
                         We just keep growing
