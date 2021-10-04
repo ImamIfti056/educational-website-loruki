@@ -5,6 +5,7 @@ import homeImg from './home-img.jpg';
 
 const Home = () => {
 
+  // Hero Section
     return (
       <>
         <div>

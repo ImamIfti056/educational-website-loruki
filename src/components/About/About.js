@@ -4,6 +4,7 @@ import aboutImg from './about-img.jpg';
 const About = () => {
     return (
         <div>
+            {/* top section */}
             <div className="container">
                 <h1 className="fs-1 text-center text-dark my-5">About US</h1>
                 <hr />
@@ -25,6 +26,7 @@ const About = () => {
                 </div>
             </div>
 
+            {/* Stat section */}
             <section className="bg-primary">
                 <div className="container py-5">
                     <h1 className="fs-1 text-center mb-4 text-light">
@@ -36,6 +38,7 @@ const About = () => {
                         Check out our latest updates!
                     </p>
 
+                    {/* Stats */}
                     <div className="d-flex align-items-center justify-content-between text-center py-5">
                         <p className="text-light border-light border p-3">
                             <h3 className="fs-3">12M+</h3>

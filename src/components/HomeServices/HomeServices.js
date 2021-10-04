@@ -12,6 +12,7 @@ const Services = () => {
         .then(data => setServices(data))
     }, [])
 
+    // filtering 4 services for home page
     const homeServices = services.filter(service => service.id < 5);
 
     return (
