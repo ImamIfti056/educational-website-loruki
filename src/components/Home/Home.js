@@ -13,7 +13,7 @@ const Home = () => {
               <div className="col-6">
                 <h1 className='fs-1 fw-bold'>Learn with the best tutors</h1>
                 <p className='fs-4'>Keep yourself updated. Otherwise you will be rejected.</p>
-                <NavLink to='/services'><button className="btn-success btn">Enroll Now</button></NavLink>
+                <NavLink to='/services'><button className="btn-success btn mt-3 w-25 fs-5">Enroll Now</button></NavLink>
               </div>
               <div className="col-6">
                 <img className='img-fluid' src={homeImg} alt="home-img" />  
@@ -21,7 +21,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-
+      
         <HomeServices></HomeServices>
       </>
     );

@@ -39,19 +39,19 @@ const About = () => {
                     <div className="d-flex align-items-center justify-content-between text-center py-5">
                         <p className="text-light border-light border p-3">
                             <h3 className="fs-3">12M+</h3>
-                            <small>Learners</small>
+                            <small className='fs-6'>Learners</small>
                         </p>
                         <p className="text-light border-light border p-3">
                             <h3 className="fs-3">234K+</h3>
-                            <small>Instructors</small>
+                            <small className='fs-6'>Instructors</small>
                         </p>
                         <p className="text-light border-light border p-3">
                             <h3 className="fs-3">121K+</h3>
-                            <small>Courses</small>
+                            <small className='fs-6'>Courses</small>
                         </p>
                         <p className="text-light border-light border p-3">
                             <h3 className="fs-3">343M+</h3>
-                            <small>Course Enrollments</small>
+                            <small className='fs-6'>Course Enrollments</small>
                         </p>
                     </div>
                 </div>

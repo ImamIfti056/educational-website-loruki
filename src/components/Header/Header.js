@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const activeStyle = {
-        fontWeight: "600"
+        fontWeight: "700"
     }
     return (
         <div className="bg-success text-light p-3">
@@ -13,7 +13,7 @@ const Header = () => {
                     <NavLink activeStyle={activeStyle} className='text-decoration-none mx-3 text-light fs-5' to='/home'>Home</NavLink>
                     <NavLink activeStyle={activeStyle} className='text-decoration-none mx-3 text-light fs-5' to='/services'>Services</NavLink>
                     <NavLink activeStyle={activeStyle} className='text-decoration-none mx-3 text-light fs-5' to='/about'>About</NavLink>
-                    <NavLink activeStyle={activeStyle} className='text-decoration-none mx-3 text-light fs-5' to='/login'>Sign in</NavLink>
+                    <NavLink activeStyle={activeStyle} className='text-decoration-none mx-3 text-light fs-5' to='/login'>Log in</NavLink>
                 </nav>
             </div>
         </div>
